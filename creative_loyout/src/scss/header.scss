@@ -6,21 +6,22 @@
     }
 
     &__logo {
-        margin: 22px 0px 18px 0px;
+        margin: 22px 0 18px 0;
     }
     &__menu li { 
-        font-family: "Gotham-Book";
-        font-weight: 500;
         margin: 0 24px;
-        padding: 40px 0;
+        
     }
-    &__menu li:hover { 
-        border-bottom: 5px solid #11749e;
-    }
-    &__menu li a { 
+   
+    &__menu li a {
+        font-family: "Gotham-Book";
+        font-weight: 500; 
         color: #fff;
         font-size: 20px;
-        
+        padding: 40px 0;
+    }
+    &__menu li a:hover { 
+        border-bottom: 5px solid #11749e;
     }
 }
 .menu {

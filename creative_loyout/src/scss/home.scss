@@ -1,0 +1,73 @@
+.home {
+
+    height: 80%;
+    border-top: 1px solid #7b7b7b;
+    text-align: center;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__top {
+        margin: 13% 0 0 0;
+    }
+
+    &__title {
+        font-size: 152.5px;
+        font-family: 'Gotham';
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 0 10px 0;
+    }
+
+    &__subtitle {
+        font-family: "Gotham";
+        font-weight: 500;
+        font-size: 25px;
+        color: #11749e;
+        letter-spacing: 0.8em;
+        text-transform: uppercase;
+    }
+
+    &__bottom {
+        margin: 0 0 8% 0;
+    }
+
+    &__text {
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+    }
+
+    &__arrow {
+        position: relative;
+        padding: 30px 0;
+        width: 70px;
+        height: 70px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        animation: arrowDown 1s ease infinite alternate 0s;
+    }
+    &__arrow a { 
+        padding: 25px;
+    }
+}
+
+@keyframes arrowDown {
+    from {
+      bottom: 0;
+    }
+    to {
+      bottom: -50px;
+    }
+  }
+
+.animated {
+}
+.fadeInUpBig {
+}
+.scrollto {
+}

@@ -1,0 +1,51 @@
+.key {
+    background: #181818 url(../img/bg2.webp) center/cover no-repeat fixed;
+    color: #fff;
+    &__row {
+        padding: 100px 0;
+    }
+
+    &__offer {
+        width: 500px;
+    }
+
+    &__title {
+        font-size: 25px;
+        font-family: "Gotham";
+        text-transform: uppercase;
+        margin: 125px 0 40px 0;
+    }
+
+    &__text {
+        line-height: 1.8em;
+        margin: 0 0 70px 0;
+        font-family: "Gotham-Book";
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    &__skills {
+        font-family: "Gotham-Book";
+        font-weight: 500;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    &__skills li {
+        background: #11749e;
+        padding: 13px 0 13px 20px;
+      }
+    &__skills :nth-child(1) {
+        max-width: 370px;
+        margin: 0 0 22px 0;
+    }
+
+    &__skills :nth-child(2) {
+    max-width: 400px;
+    margin: 0 0 22px 0;
+    }
+
+    &__skills :nth-child(3) {
+    max-width: 430px;
+    }
+
+}

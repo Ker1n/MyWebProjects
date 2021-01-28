@@ -1,0 +1,102 @@
+.news {
+    display: flex;
+    flex-direction: column; 
+
+    &__row {
+        display: flex;
+        justify-content: center;
+        background: #222;
+        color: #fff;
+
+        &_two {
+            background: #f3f3f3;
+            color: #222;
+            flex-direction: row-reverse;
+        }
+    }
+
+    &__note {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.note {
+
+    &__offer {
+        max-width: 480px;
+        height: auto;
+        padding: 70px 0 0 0;
+        margin: 0 115px 0 205px;
+
+        &_two {
+            margin: 0 205px 0 115px;
+        }
+    }
+
+    &__date {
+        position: relative;
+        
+        &_two {
+
+        }
+    }
+
+    &__date ul { 
+        display: flex;
+       
+    }
+    &__date ul a { 
+       color: #11749e;
+      
+       
+    }
+
+    &__date :after {
+        content: "";
+        height: 13px;
+        width: 1px;
+        background:  #11749e;
+        display: inline-block;
+        margin: 0 13px 0 13px;
+      }
+      &__date  :last-child:after {
+        display: none;
+      }
+
+      &__date  ul li a {
+        font-size: 13px;
+        font-family: "Gotham-Book";
+        font-weight: 500;
+      }
+    &__title {
+        font-family: "Gotham";
+        font-size: 25px;
+        text-transform: uppercase;
+        margin: 20px 0 30px 0;
+    }
+
+    &__text {
+        font-family: "Gotham-Book";
+        font-weight: 500;
+        font-size: 15px;
+    
+        line-height: 2em;
+    }
+
+    &__text p {
+        margin: 0 0 35px 0;
+      }
+      &__text span {
+        margin: 0;
+      }
+    &__img {
+        width: 100%;
+        height: auto;
+        max-width: 800px;
+    }
+}
+
+.note__date_two a { 
+    color: black;
+}

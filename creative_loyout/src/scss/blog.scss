@@ -1,0 +1,42 @@
+.blog {
+    color: #222;
+    text-align: center;
+
+    &__subtitle {
+        font-family: "Gotham-Book";
+        font-weight: 500;
+        font-size: 30px;
+        margin: 0 0 75px 0;
+    }
+
+    &__row {
+        margin: 0 0 115px 0;
+    }
+
+    &__item {
+        margin: 0;
+    }
+    
+    &__item-img img {
+        width: 270px;
+        height: 280px;
+    }
+    &__item-img :hover {
+        box-shadow: 0 0 10px #11749e;
+    }
+
+    &__item-title {
+        font-family: "Gotham";
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #11749e;
+        margin: 43px 0 25px 0;
+    }
+
+    &__item-text {
+        font-family: "Gotham-Book";
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 1.8em;
+    }
+}

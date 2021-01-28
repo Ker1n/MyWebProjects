@@ -1,0 +1,89 @@
+.feautures {
+    background: #11749e;
+    color: #fff;
+    text-align: center;
+    scroll-behavior: smooth;
+
+    &__offer h2 {
+        color:white;
+    }
+
+    &__title {
+    }
+
+    &__row {
+        padding: 0 0 130px 0;
+    }
+
+    &__item {
+        max-width: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 15px 0 15px;
+    }
+}
+
+.offer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 0 140px 0;
+}
+.offer h2 { 
+    font-family: "Gotham";
+    font-size: 37.5px;
+    text-transform: uppercase;
+}
+.title {
+    position: absolute;
+    font-size: 247px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    opacity: 15%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px 0 15px;
+    
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 134px;
+        height: 134px;
+        background: #2e85aa;
+        border-radius: 50%;
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        font-family: "Gotham";
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 24px 0 34px 0;
+    }
+
+    &__text {
+        font-family: "Gotham-Book";
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 2em;
+    }
+}
+.fadeIn-Down {
+}
+.animated {
+}
+.fadeIn-Up {
+}
+

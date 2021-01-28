@@ -1,0 +1,50 @@
+.contact {
+    background: #181818 url(../img/bg3.webp) center/cover no-repeat fixed;
+    color: #fff;
+
+    &__form {
+        padding: 0 0 100px 0;
+    }
+    &__form textarea {
+        width: 100%;
+        border: 1px solid #fff;
+        background: transparent;
+        color: #fff;
+        padding: 15px 0 0 20px;
+        margin: 0 0 47px 0;
+    }
+    
+    &__form ::placeholder {
+     color
+     : #fff;
+    }
+    &__input {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 40px 0;
+    }
+
+    &__input input {
+        border: 1px solid #fff;
+        background: transparent;
+        color: #fff;
+        width: 370px;
+        padding: 15px 0 15px 20px;
+    }
+
+    &__input::placeholder {
+    color: #fff;
+    }
+
+    &__btn {
+        display: block;
+        width: 230px;
+        height: 65px;
+        font-family: "Gotham";
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        background: #11749e;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,52 @@
+.team {
+    text-align: center;
+    &__offer {
+    }
+
+    &__title {
+        
+    }
+
+    &__subtitle {
+        font-size: 30px;
+        margin: 0 0 70px 0;
+        font-family: "Gotham-Book";
+        font-weight: 500;
+    }
+
+    &__row {
+        margin: 0 0 125px 0;
+    }
+
+    &__item {
+        position: relative;
+    }
+
+    &__item-img img{
+        max-width: 270px;
+        width: 100%;
+        height: auto;
+    }
+
+    &__item-description {
+        position: absolute;
+        bottom: -20px;
+        z-index: 10;
+        background: #fff;
+        width: 220px;
+        padding: 25px 0 0 0;
+    }
+
+    &__item-name {
+        font-family: "Gotham";
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #11749e;
+        margin: 0 0 15px 0;
+    }
+
+    &__item-position {
+        font-family: "Gotham";
+        font-size: 15px;
+    }   
+}

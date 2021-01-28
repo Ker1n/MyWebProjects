@@ -1,0 +1,60 @@
+.header {
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        margin: 22px 0px 18px 0px;
+    }
+    &__menu li { 
+        font-family: "Gotham-Book";
+        font-weight: 500;
+        margin: 0 24px;
+        padding: 40px 0;
+    }
+    &__menu li:hover { 
+        border-bottom: 5px solid #11749e;
+    }
+    &__menu li a { 
+        color: #fff;
+        font-size: 20px;
+        
+    }
+}
+.menu {
+    &__list {
+        display: flex;      
+    }
+}
+
+.scrollto {
+    
+}
+.networks {
+
+    &__list {
+        list-style: none;
+        display: flex;
+    }
+    &__list a{ 
+        color: white;
+        font-size: 20px;  
+    }
+    
+}
+
+.fa-facebook-f {
+}
+.fa-twitter {
+}
+.fa-skype {
+}
+.fa-linkedin-in {
+}
+.social__icon { 
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}

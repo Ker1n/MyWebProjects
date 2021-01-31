@@ -97,11 +97,3 @@ jQuery(document).ready(function() {
 				return false;
 		});
 });
-let validateForms = function (selector, rules, successModal, yaGoal) {
-    new window.JustValidate (selector, { 
-        rules: rules,
-        submitHandler: function (form) { 
-            
-        }
-    })
-}

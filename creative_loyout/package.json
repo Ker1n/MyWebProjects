@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean-css": "^4.3.0"
+    "gulp-clean-css": "^4.3.0",
+    "inputmask": "^5.0.5"
   }
 }

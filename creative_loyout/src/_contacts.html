@@ -4,7 +4,8 @@
             <h2>We’d love to hear about your project.</h2>
             <div class="contact__title title">c</div>
         </div>
-        <form class="contact__form" action="#" method="post">
+        <form class="contact__form" action="#" enctype="multipart/form-data"  method="post">
+            <input type="hidden" name='admin_mail[]' value='test@gmail.com'>
             <div class="contact__input">
                 <input type="text" name="name" placeholder="Name" class="contact__name" tabindex="1">
                 <input type="text" name="email" placeholder="Email" class="contact__email" tabindex="2">

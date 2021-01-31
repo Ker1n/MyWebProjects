@@ -4262,7 +4262,7 @@ h6 {
 .wrapper {
   color: #ffffff;
   height: 100%;
-  background: url("/img/fullscreen.webp") center/cover no-repeat fixed;
+  background: url("../img/fullscreen.webp") center/cover no-repeat fixed;
 }
 
 .container {

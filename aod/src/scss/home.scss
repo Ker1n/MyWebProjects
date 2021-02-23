@@ -23,8 +23,6 @@
         left: 0;
     }
 }
-.ibg {
-}
 
 
 
@@ -39,13 +37,6 @@
         align-items: center;
         height: 85px;
     }
-
-    &__menu {
-    }
-
-    &__icon {
-    }
-
     &__logo {
         position: absolute;
         left: 50%;  
@@ -54,10 +45,6 @@
     }
 }
 .menu {
-
-    &__body {
-
-    }
 
     &__list {
         display: flex;

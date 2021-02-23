@@ -106,7 +106,7 @@
             height: 100%;
             top: 0;
             left: 0;
-            background-color: #4d4959;
+            background-color: rgba($color: #4d4959, $alpha: 0.8);
             padding: 150px 0px 0px 0px;
             transform: translate3d(0px, -100%, 0px);
             @include anim(0.3s,0s )

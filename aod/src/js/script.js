@@ -1,1 +1,1 @@
-@@include('alert.js')
+@@include('ibg.js')
